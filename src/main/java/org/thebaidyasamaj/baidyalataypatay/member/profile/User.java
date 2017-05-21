@@ -6,7 +6,7 @@ import javax.persistence.Id;
 /**
  * Created by saikatgupta on 5/20/17.
  */
-@Entity
+@Entity(name = "User_Registration")
 public class User {
     private String userName;
     private String companyName;
